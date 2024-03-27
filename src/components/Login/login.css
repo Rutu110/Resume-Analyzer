@@ -1,0 +1,199 @@
+.main-login {
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    /* background: -webkit-gradient(linear, left top, right top, color-stop(50%, #dfdddd), color-stop(50%, #4dd6b6));
+    background: linear-gradient(to right, #dfdddd 50%, #4dd6b6 50%); */
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  }
+  
+  .main-login .login-contain {
+    height: 75vh;
+    width: 70%;
+    /* background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(236, 236, 236, 0.4)));
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(236, 236, 236, 0.4)); */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 1rem;
+    margin: 5rem auto;
+    -webkit-box-shadow: 0.5rem 0.5rem 2rem -1rem #3a3939;
+            box-shadow: 0.5rem 0.5rem 2rem -1rem #3a3939;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .main-login .login-contain .link {
+    text-decoration: none;
+    color: #4dd6b6;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  .main-login .login-contain .link:hover {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+    color: gray;
+  }
+  
+  .main-login .login-contain .left-side, .main-login .login-contain .right-side {
+    margin: 2rem 2rem;
+    -webkit-box-shadow: 0.5rem 0.5rem 2rem -1rem #3a3939;
+            box-shadow: 0.5rem 0.5rem 2rem -1rem #3a3939;
+    height: 90%;
+    width: 100%;
+  }
+  
+  .main-login .login-contain .left-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .main-login .login-contain .left-side .img-class {
+    height: 4.5rem;
+  }
+  
+  .main-login .login-contain .left-side .img-class #img-id {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .main-login .login-contain .left-side input {
+    display: block;
+    border: none;
+    height: 2rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    padding: 0.2rem 1rem;
+    font-size: small;
+    color: gray;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .main-login .login-contain .left-side input:focus {
+    outline: none;
+    border: none;
+  }
+  
+  .main-login .login-contain .left-side input:hover {
+    outline: 0.5px solid #4dd6b6;
+    -webkit-box-shadow: 2px 2px 9px -2px #4dd6b6;
+            box-shadow: 2px 2px 9px -2px #4dd6b6;
+  }
+  
+  .main-login .login-contain .left-side label {
+    display: block;
+    text-align: left;
+    width: 78%;
+    margin: auto;
+    font-size: small;
+    color: gray;
+    margin-bottom: 0.5rem;
+  }
+  
+  .main-login .login-contain .left-side #sub_butt {
+    width: 80%;
+    background: #4dd6b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  .main-login .login-contain .left-side #sub_butt:hover {
+    -webkit-box-shadow: 4px 3px 9px -1px gray;
+            box-shadow: 4px 3px 9px -1px gray;
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  
+  .main-login .login-contain .right-side .welcomeNote h3 {
+    margin-left: 1rem;
+    color: black;
+    float: left;
+    margin-bottom: 2.5rem;
+  }
+  
+  .main-login .login-contain .right-side .welcomeImg {
+    height: 100%;
+    width: 70%;
+    margin: 0rem auto;
+  }
+  
+  .main-login .login-contain .right-side .welcomeImg #wel-img-id {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+ #wel-img-id{
+    margin-top: 100px;
+ }
+
+ .gradient__text h1{
+    margin-left: 60px;
+ }
+
+ .img-class{
+    margin-bottom: 160px;
+    margin-left: 80px;
+ }
+
+ #el{
+    margin-left: 10px;
+    margin-top: 40px;
+ }
+
+ #pd{
+    margin-left: 10px;
+ }
+
+ form{
+    margin-bottom: 40px;
+ }
+ 
+  /*# sourceMappingURL=Login.css.map */
