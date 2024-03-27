@@ -1,0 +1,31 @@
+import React from 'react';
+import people from '../../assets/people.png';
+import ai from '../../assets/ai.png';
+import './header.css';
+
+const Header = () => {
+  return (
+    <div className="ra__header section__padding" id="home">
+    <div className="ra__header-content">
+      <h1 className="gradient__text">Let&apos;s Build & Analyze Resume using Artificial Intelligence.</h1>
+      <p>We have created this website which will be helpful to jobseeker to create and analyze their resume according to what company is looking for.This can be also helpful to HR department of any company to get best resumes from so many applicant's resume.</p>
+
+      <div className="ra__header-content__input">
+        <input type="email" placeholder="Your Email Address" />
+        <button type="button">Get Started</button>
+      </div>
+
+      <div className="ra__header-content__people">
+        <img src={people} alt='people'/>
+        <p>1600 people requested access a visit in last 24 hours</p>
+      </div>
+    </div>
+
+    <div className="ra__header-image">
+      <img src={ai} alt='Resume analyzer'/>
+    </div>
+  </div>
+  )
+}
+
+export default Header
